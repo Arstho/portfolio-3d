@@ -1,0 +1,11 @@
+Model Information:
+* title:	Wrist Watch
+* source:	https://sketchfab.com/3d-models/wrist-watch-cd471b55a205468ba87a2e8494a99746
+* author:	Dinesh Naidu (https://sketchfab.com/Dinesh_TS)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Wrist Watch" (https://sketchfab.com/3d-models/wrist-watch-cd471b55a205468ba87a2e8494a99746) by Dinesh Naidu (https://sketchfab.com/Dinesh_TS) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
