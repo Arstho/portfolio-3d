@@ -20,3 +20,13 @@ body,
     @apply bg-green-500 px-10 py-2 text-sm font-bold rounded-md hover:scale-[1.01]
   }
 }
+
+.animate {
+  animation: animate 2s infinite ease alternate;
+}
+
+@keyframes animate {
+  to {
+    transform: translateY(20px);
+  }
+}
