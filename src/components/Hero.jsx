@@ -1,4 +1,6 @@
+import { Canvas } from '@react-three/fiber'
 import Navbar from './Navbar'
+import { MeshDistortMaterial, OrbitControls, Sphere } from '@react-three/drei'
 
 const Hero = () => {
   return (
@@ -20,7 +22,19 @@ const Hero = () => {
           <button className='button w-max'>Узнать больше</button>
         </div>
         <div className='flex-1 h-[500px] relative'>
-          <h1>3d object</h1>
+          <Canvas>
+            <OrbitControls enableZoom={false} />
+            <ambientLight intensity={10} />
+            <directionalLight position={[3, 2, 1]} />
+            <Sphere args={[1, 100, 200]} scale={2.5}>
+              <MeshDistortMaterial
+                color='#0f104e'
+                attach='material'
+                distort={0.5}
+                speed={2}
+              />
+            </Sphere>
+          </Canvas>
           <img
             src='./img/robot.png'
             alt='robot-img'
