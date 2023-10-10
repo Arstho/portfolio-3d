@@ -4,14 +4,14 @@ import { MeshDistortMaterial, OrbitControls, Sphere } from '@react-three/drei'
 
 const Hero = () => {
   return (
-    <div className='h-screen snap-center px-20'>
+    <div className='h-[150vh] md:h-screen snap-center md:snap-center md:px-20 text-center md:text-left'>
       <Navbar />
-      <div className='flex justify-between items-center pt-10 fap-10'>
-        <div className='flex-1 flex flex-col gap-5'>
-          <h1 className='text-[56px] font-bold'>
+      <div className='flex flex-col md:flex-row justify-between items-center pt-10 fap-10'>
+        <div className='flex-1 flex flex-col gap-5 px-2 md:px-0'>
+          <h1 className='text-[42px] md:text-[56px] font-bold'>
             Думай. <br /> Создавай. <br /> Решай.
           </h1>
-          <div className='flex items-center gap-2'>
+          <div className='flex items-center gap-2 mx-auto md:mx-0'>
             <img src='./img/line.png' alt='line-img' className='h-7' />
             <h2 className='text-2xl text-green-500'>Что мы делаем</h2>
           </div>
@@ -19,9 +19,9 @@ const Hero = () => {
             нам нравиться создовать восхитительные цифровые <br /> продукты,
             ориентированные на человека.
           </p>
-          <button className='button w-max'>Узнать больше</button>
+          <button className='button w-max mx-auto md:mx-0'>Узнать больше</button>
         </div>
-        <div className='flex-1 h-[500px] relative'>
+        <div className='flex-2 md:flex-1 h-[500px] w-full md:w-auto relative'>
           <Canvas>
             <OrbitControls enableZoom={false} />
             <ambientLight intensity={10} />

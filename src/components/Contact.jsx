@@ -29,13 +29,13 @@ const Contact = () => {
   }
 
   return (
-    <div className='h-screen snap-center px-20'>
-      <div className='flex justify-between items-center h-full gap-10'>
+    <div className='h-[150vh] md:h-screen snap-start md:snap-center px-2 md:px-20'>
+      <div className='flex flex-col md:flex-row justify-between items-center h-full gap-10'>
         <div className='flex-1 flex items-center'>
           <form
             ref={ref}
             onSubmit={handleSubmit}
-            className='flex flex-col w-full gap-5'>
+            className='flex flex-col w-[350px] md:w-full gap-5'>
             <h1 className='text-2xl mb-5'>Связаться с нами</h1>
             <input
               type='text'
