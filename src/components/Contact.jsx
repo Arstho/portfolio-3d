@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
+import Map from './Map'
 
 const Contact = () => {
   const ref = useRef()
@@ -61,8 +62,7 @@ const Contact = () => {
           </form>
         </div>
         <div className='flex-1 h-full'>
-          {/* {<Map />} */}
-          <h1>Map</h1>
+          <Map />
         </div>
       </div>
     </div>

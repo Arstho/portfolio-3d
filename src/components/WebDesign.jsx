@@ -1,13 +1,13 @@
 import { OrbitControls, Stage } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
-import Web from './Web'
+import Wdesign from './Wdesign'
 
 const WebDesign = () => {
   return (
     <>
       <Canvas>
         <Stage shadows='none' environment='city' intensity={0.6}>
-          <Web />
+          <Wdesign />
         </Stage>
         <OrbitControls enableZoom={false} />
       </Canvas>
